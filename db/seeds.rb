@@ -6,8 +6,7 @@ Ingredient.destroy_all
 # USERS
 kim = User.create(name: "Kimberly", password: "1", age: 22, budget: 300)
 matt = User.create(name: "Matt", password: "123", age: 27, budget: 25)
-happyhour = User.create(name: "Happy Hour", password: "bar", age: 21, budget: 500)
-
+happyhour = User.create(name: "Happy Hour", password: "bar", age: 21, budget: 499)
 
 # RECIPES
 # margarita = Recipe.create(category: 'margarita', name: 'Strawberry Margarita', price: 8, user: kim, instructions: "Mix")

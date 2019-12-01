@@ -78,6 +78,7 @@ To test locally, follow the instructions below:
 4. Back in the terminal run `bundle install`
 5. Run `rails db:create && rails db:migrate && rails db:seed`
 6. Run `rails s`
+  - Make sure this runs on port 3000 (should by default)
 7. If you have not already, go to the [frontend repository](https://github.com/mrwerner392/happy-hour-frontend/tree/headless-horse-rider) and follow the installation instructions in the README
 
 ## Demo
